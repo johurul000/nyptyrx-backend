@@ -1,0 +1,52 @@
+A_Z_medicines_dataset_of_India.csv
+
+# Virtual environment
+venv/
+env/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Secret settings
+.env
+*.env
+
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook Checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Celery Beat schedule file (if using Celery)
+celerybeat-schedule
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+
+# pytest cache
+.pytest_cache/
+
+# Docker (if using Docker)
+docker-compose.override.yml
